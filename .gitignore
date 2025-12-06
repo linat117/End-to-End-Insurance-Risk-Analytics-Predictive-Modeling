@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+data/
+*.csv
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# DVC (we'll use dvc files but not data)
+.dvc/cache/
